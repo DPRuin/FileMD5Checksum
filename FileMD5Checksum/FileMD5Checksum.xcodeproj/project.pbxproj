@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E5C5233213A8D0B0017138A /* idle.zip in Resources */ = {isa = PBXBuildFile; fileRef = 7E5C5232213A8D0A0017138A /* idle.zip */; };
 		7ECC75CF213A4A4500D58857 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC75CE213A4A4500D58857 /* AppDelegate.swift */; };
 		7ECC75D1213A4A4500D58857 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC75D0213A4A4500D58857 /* ViewController.swift */; };
 		7ECC75D4213A4A4500D58857 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ECC75D2213A4A4500D58857 /* Main.storyboard */; };
 		7ECC75D6213A4A4700D58857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ECC75D5213A4A4700D58857 /* Assets.xcassets */; };
 		7ECC75D9213A4A4700D58857 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ECC75D7213A4A4700D58857 /* LaunchScreen.storyboard */; };
 		7ECC75E1213A6F9B00D58857 /* FileChecksum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC75E0213A6F9B00D58857 /* FileChecksum.swift */; };
+		7ECC75E6213A82BE00D58857 /* housekeeper-1.0.zip in Resources */ = {isa = PBXBuildFile; fileRef = 7ECC75E5213A82BD00D58857 /* housekeeper-1.0.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E5C5232213A8D0A0017138A /* idle.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = idle.zip; sourceTree = "<group>"; };
 		7ECC75CB213A4A4500D58857 /* FileMD5Checksum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileMD5Checksum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECC75CE213A4A4500D58857 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ECC75D0213A4A4500D58857 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,8 @@
 		7ECC75D8213A4A4700D58857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7ECC75DA213A4A4700D58857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7ECC75E0213A6F9B00D58857 /* FileChecksum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileChecksum.swift; sourceTree = "<group>"; };
+		7ECC75E2213A72BE00D58857 /* FileMD5Checksum-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FileMD5Checksum-Bridging-Header.h"; sourceTree = "<group>"; };
+		7ECC75E5213A82BD00D58857 /* housekeeper-1.0.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "housekeeper-1.0.zip"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,8 @@
 		7ECC75CD213A4A4500D58857 /* FileMD5Checksum */ = {
 			isa = PBXGroup;
 			children = (
+				7E5C5232213A8D0A0017138A /* idle.zip */,
+				7ECC75E5213A82BD00D58857 /* housekeeper-1.0.zip */,
 				7ECC75CE213A4A4500D58857 /* AppDelegate.swift */,
 				7ECC75D0213A4A4500D58857 /* ViewController.swift */,
 				7ECC75E0213A6F9B00D58857 /* FileChecksum.swift */,
@@ -63,6 +70,7 @@
 				7ECC75D5213A4A4700D58857 /* Assets.xcassets */,
 				7ECC75D7213A4A4700D58857 /* LaunchScreen.storyboard */,
 				7ECC75DA213A4A4700D58857 /* Info.plist */,
+				7ECC75E2213A72BE00D58857 /* FileMD5Checksum-Bridging-Header.h */,
 			);
 			path = FileMD5Checksum;
 			sourceTree = "<group>";
@@ -99,6 +107,7 @@
 				TargetAttributes = {
 					7ECC75CA213A4A4500D58857 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -125,9 +134,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ECC75E6213A82BE00D58857 /* housekeeper-1.0.zip in Resources */,
 				7ECC75D9213A4A4700D58857 /* LaunchScreen.storyboard in Resources */,
 				7ECC75D6213A4A4700D58857 /* Assets.xcassets in Resources */,
 				7ECC75D4213A4A4500D58857 /* Main.storyboard in Resources */,
+				7E5C5233213A8D0B0017138A /* idle.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +295,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NV32R76SX;
 				INFOPLIST_FILE = FileMD5Checksum/Info.plist;
@@ -293,6 +305,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.betasmart.FileMD5Checksum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FileMD5Checksum/FileMD5Checksum-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,6 +316,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NV32R76SX;
 				INFOPLIST_FILE = FileMD5Checksum/Info.plist;
@@ -311,6 +326,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.betasmart.FileMD5Checksum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FileMD5Checksum/FileMD5Checksum-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
